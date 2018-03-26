@@ -6,10 +6,9 @@ public class Exam01 {
 		// git Test 1
 		// git test 2
 		// git Test 3
-		// git test 4
-		
+		// git test 4		
 		// git test 5
-		
+		// git test 6
 		
 		
 		
