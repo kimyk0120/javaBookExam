@@ -8,8 +8,8 @@ public class ThreadEx {
 		Runnable r = new ThreadEx1_2();
 		Thread t2 = new Thread(r);
 		
-		t1.setName("kimThread");
-		t2.setName("ykThread");
+//		t1.setName("kimThread");
+//		t2.setName("ykThread");
 
 		t1.start();
 		t2.start();
