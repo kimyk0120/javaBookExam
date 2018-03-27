@@ -26,7 +26,6 @@ class ThreadEx7_1 extends Thread{
 			try {
 				sleep(1000);
 			} catch (Exception e) {
-				// TODO: handle exception
 			}
 		}
 		
