@@ -1,9 +1,5 @@
 package book.exam;
 
-import java.util.*;
-
-import book.exam.Card.Kind;
-
 public class BookExam01 {
 	
 	
@@ -85,14 +81,14 @@ public class BookExam01 {
 //		System.out.println(map);
 //		System.out.println(map.get("id"));
 		
-		Kind d = Card.Kind.clover;
-		System.out.println(d);
-		
+//		Kind d = Card.Kind.clover;
+//		System.out.println(d);
+//		
 //		Kind s = Card.Kind;
 //		System.out.println(s);
 		
 		
-		
+		//Thread thread = new Thread(target);
 		
 		
 		
