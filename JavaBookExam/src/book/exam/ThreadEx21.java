@@ -16,7 +16,7 @@ class Acount{
 		return balance;
 	}
 	
-	public void widthraw(int money){
+	public synchronized void widthraw(int money){
 		if(balance >= money){
 			try {
 				Thread.sleep(1000);
@@ -35,6 +35,7 @@ class RunnableEx21 implements Runnable{
 	public void run() {
 		while(acc.getBalance() >0 ){
 			int money = (int)(Math.random()*3+1)*100;
+			System.out.println("widthraw money"+ money);
 			acc.widthraw(money);
 			System.out.println("balance : " + acc.getBalance());
 		}
